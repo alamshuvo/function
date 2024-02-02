@@ -6,6 +6,7 @@ function sumOfArray(numbers) {
     const element =numbers[i];
     sum+=element;
    }
-   return sum;
+   let avg=parseInt(sum/numbers.length)
+   return avg;
 }
 console.log(sumOfArray([1,2,5,6,5,4,5,10,50]));
