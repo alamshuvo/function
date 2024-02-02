@@ -8,4 +8,4 @@ function sumOfArray(numbers) {
    }
    return sum;
 }
-console.log(sumOfArray([1,2,5,6,5,4,5,10]));
+console.log(sumOfArray([1,2,5,6,5,4,5,10,50]));
